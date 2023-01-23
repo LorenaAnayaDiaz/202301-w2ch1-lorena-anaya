@@ -3,3 +3,54 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+@import url(Outfit-Bold.ttf);
+@import url(Outfit-Regular.ttf);
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.qr-card__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding-bottom: 3rem;
+  max-width: 350px;
+  font-family: "Outfit", sans-serif;
+}
+
+.qr-card__container--image {
+  width: 20rem;
+  height: 20rem;
+  background-image: url(image-qr-code.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin-bottom: 1.8rem;
+}
+
+.qr-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.qr-card-instructions {
+  color: hsl(220, 15%, 55%);
+}
+
+.qr-card-title {
+  color: hsl(218, 44%, 22%);
+}
