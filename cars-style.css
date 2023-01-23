@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url(LexendDeca-Regular.ttf);
+@import url(BigShouldersDisplay-Bold.ttf);
+
+.cars-container {
+  padding: 1rem;
+  margin: 0 auto;
+
+  border-radius: 20px;
+  max-width: 350px;
+}
+
+.cars__card-1 {
+  background-color: hsl(31, 77%, 52%);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  height: 28rem;
+  justify-content: space-between;
+}
+
+.cars__card-2 {
+  background-color: hsl(184, 100%, 22%);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  height: 28rem;
+  justify-content: space-between;
+}
+
+.cars__card-3 {
+  background-color: hsl(179, 100%, 13%);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  height: 28rem;
+  justify-content: space-between;
+}
+
+.cars__info {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 2;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.learn-more-button-3 {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  border: none;
+  border-radius: 20px;
+  width: 8rem;
+  height: 2rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+.learn-more-button-2 {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  border: none;
+  border-radius: 20px;
+  width: 8rem;
+  height: 2rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+.learn-more-button-1 {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  border: none;
+  border-radius: 20px;
+  width: 8rem;
+  height: 2rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.cars__title {
+  color: hsl(0, 0%, 95%);
+  font-size: 2rem;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+.cars-card__image {
+  width: min-content;
+}
+
+@media (min-width: 426px) {
+  .cars-container {
+    display: flex;
+
+    max-width: 60rem;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    flex-direction: row;
+    margin-top: 10%;
+  }
+}
